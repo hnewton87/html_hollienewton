@@ -1,12 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>CV</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive HTML & CSS CV with JavaScript</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left_Side">
+        <div class="profileText">
+          <div class="imgBx">
+            <img src="Images/H.jpg" />
+          </div>
+          <h2>
+            Hollie Newton<br /><span
+              ><button id="print-button">Print CV</button></span
+            >
+          </h2>
+        </div>
+
+        <div class="contactInfo">
+          <h3 class="title">Contact Info</h3>
+          <ul>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-phone" aria-hidden="true"></i
+              ></span>
+              <span class="text">07526 395 191</span>
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-envelope" aria-hidden="true"></i
+              ></span>
+              <span class="text"
+                ><a id="email-link">h.newton@hotmail.co.uk</a></span
+              >
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-globe" aria-hidden="true"></i
+              ></span>
+              <span class="text"
+                ><a id="website-link">www.reclayaim.com</a></span
+              >
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-map-marker" aria-hidden="true"></i
+              ></span>
+              <span class="text">Preston, Lancashire.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contactInfo education">
+          <h3 class="title">Education</h3>
+          <ul>
+            <li>
+              <h5>Mar-Jun 2023</h5>
+              <h4>COMPUTER CODING</h4>
+              <h4>Code Lancashire Bootcamp</h4>
+            </li>
+            <li>
+              <h5>2016-2019</h5>
+              <h4>FDSC CANINE SCIENCE</h4>
+              <h4>Myerscough College</h4>
+            </li>
+            <li>
+              <h5>2009-2010</h5>
+              <h4>BTEC DIPLOMA ANIMAL STUDIES</h4>
+              <h4>Myerscough college</h4>
+            </li>
+            <li>
+              <h5>1999-2004</h5>
+              <h4>GCSE</h4>
+              <h4>Brownedge St Marys</h4>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contactInfo skills">
+          <h3 class="title">Skills</h3>
+          <ul>
+            <li>HTML & CSS</li>
+            <li>Website & Social Media Management</li>
+            <li>Working as a Mutli Small Business Team</li>
+            <li>Time Management</li>
+            <li>Account & Data Management</li>
+            <li>Working Remotely</li>
+            <li>Full UK Driving Licence</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right_Side">
+        <div class="about">
+          <h2 class="title2">Profile</h2>
+          <p>
+            15 years experience running a sucessful dog training business.
+            Working remotely has brought great strengths Instructing clients &
+            dogs of varied breeds and needs - from Puppys to aggressive dogs,
+            and dogs with very specific needs such as deaf and blind dogs.<br /><br />
+            In 2016 i attended UCLAN to study a science degree in canine
+            studies.<br /><br />
+            My hobbys have included training a private hire drug dog, and the
+            study of medical detection dogs.
+          </p>
+        </div>
+        <div class="about">
+          <h2 class="title2">Experience</h2>
+          <div class="box">
+            <div class="year_company">
+              <h5>Mar-Jun 2023</h5>
+              <h5>Code Lancashire</h5>
+            </div>
+            <div class="text">
+              <h4>Digital Skills Bootcamp Student</h4>
+              <p>
+                A 12-week programme that involves 80 hours of guided learning in
+                group sessions - working on both technical skills and
+                employability. <br />
+                Skills covered: HTML / CSS /Javascript / React / GitHub / Python
+                / +.
+              </p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="year_company">
+              <h5>2019 - Present</h5>
+              <h5>ReClayAim</h5>
+            </div>
+            <div class="text">
+              <h4>Jeweller & Artist</h4>
+              <p>
+                <li>Working with Silver & Gold</li>
+                <li>Account Keeping</li>
+                <li>Design Social Media Management</li>
+                <li>
+                  Planning & Attending Show Stands (UK) to increase business
+                  awareness and customer connections
+                </li>
+                <li>Time Management</li>
+              </p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="year_company">
+              <h5>May 2007 - Aug 2020</h5>
+              <h5>Dog Behaviourist</h5>
+            </div>
+            <div class="text">
+              <h4>Dog Trainer/Director</h4>
+              <p>
+                <li>
+                  Training all breeds of dog for varied behavioural issues.
+                </li>
+                <li>
+                  Working alongside clients and understanding their needs and
+                  behaviours.
+                </li>
+                <li>
+                  Setting easy to understand plans and goals for client &
+                  canine.
+                </li>
+                <li>
+                  Teaching the client about canine body language &
+                  communication.
+                </li>
+                <li>Keeping logs and spreadsheets for each client.</li>
+                <li>Dealing with payments.</li>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
 </html>
