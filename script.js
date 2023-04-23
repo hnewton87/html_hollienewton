@@ -14,8 +14,16 @@ websiteLink.addEventListener('click', () => {
 });
 
 
-const printButton = document.getElementById('print-button');
+// const printButton = document.getElementById('print-button');
 
-printButton.addEventListener('click', () => {
-  window.print();
+// printButton.addEventListener('click', () => {
+//   window.print();
+// });
+
+
+const linkedinLink = document.getElementById('linkedin-link')
+const linkedinUrl = 'http://www.linkedin.com/';
+
+linkedinLink.addEventListener('click', () => {
+  window.open(linkedinUrl);
 });
